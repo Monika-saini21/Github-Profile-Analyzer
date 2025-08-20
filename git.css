@@ -1,0 +1,119 @@
+body{
+    margin:0 ;
+    padding: 0;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+ height: 50px;
+}
+.github{
+    width: 35px;
+    height: 35px;
+    margin-top: 1%;
+    margin-right: 0.5%;
+}
+h1{
+   font-size: 38px;
+  margin-top: 1%;
+}
+.search{
+    display: flex;
+    justify-content: center
+}
+.searchbar{
+    width: 40%;
+  padding: 0.5%;
+  border-color: blue;
+ box-shadow: 0.5px 0.5px 4px 4px lightblue;
+ border-radius:5px;
+ margin-top: 2%;
+}
+.pic{
+    width: 15px;
+    height: 15px;
+    padding-top: 17px;
+    padding-right: 3px;
+    margin-left: 10px;
+}
+.line{
+    display: flex;
+    height: 30px;
+}
+.detail{
+    display: flex;
+    justify-content: center;
+    
+}
+.profile{
+    width: 9%;
+    height: 9%;
+    border-radius: 50%;
+   position: relative;
+   bottom: 15px;
+}
+.saqib{
+    height: 4%;
+   margin-top: 12px;
+   margin-left: 10px;
+}
+.username{
+  font-size: 30px;
+  color: blue;
+  margin-left: 38%;
+  margin-top: 2rem;
+   margin-bottom: 3rem;
+}
+.follower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12rem;
+margin-top: 1%;
+font-size: medium;
+width: 100;
+
+
+}
+.user{
+    color: blue;
+    font-size: x-large;
+  margin-left: 40%;
+  
+}
+.username2{
+    margin-left: 45%;
+}
+.userrepos{
+     display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 20px;
+    
+}
+.api{
+    display: flex;
+     justify-content: start;
+   font-weight: bold;
+   height: 30px;
+   color: blue;
+   font-size:x-large;
+   text-decoration: underline;
+    margin-bottom: 2.5rem;
+   
+}
+.start{
+    border-radius: 20px;
+    width: 300px;
+   padding-bottom: 2rem;
+   padding-left: 1%;
+      
+   background: rgb(175, 213, 226);
+}
+.heee{
+     width: 20px;
+    height: 20px;
+    margin-top: 10%;
+    margin-right: 2%;
+}
