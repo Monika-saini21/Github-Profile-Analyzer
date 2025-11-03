@@ -1,119 +1,229 @@
-body{
-    margin:0 ;
-    padding: 0;
+body {
+  margin: 10px;
+  padding: 0;
 }
 
-.heading{
-    display: flex;
-    justify-content: center;
- height: 50px;
+/* HEADER */
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  flex-wrap: wrap;
 }
-.github{
-    width: 35px;
-    height: 35px;
-    margin-top: 1%;
-    margin-right: 0.5%;
+
+.github {
+  width: 35px;
+  height: 35px;
+  margin-top: 1%;
+  margin-right: 0.5%;
 }
-h1{
-   font-size: 38px;
+
+h1 {
+  font-size: 38px;
   margin-top: 1%;
 }
-.search{
-    display: flex;
-    justify-content: center
+
+/* SEARCH BAR */
+.search {
+  display: flex;
+  justify-content: center;
 }
-.searchbar{
-    width: 40%;
+
+.searchbar {
+  width: 40%;
   padding: 0.5%;
   border-color: blue;
- box-shadow: 0.5px 0.5px 4px 4px lightblue;
- border-radius:5px;
- margin-top: 2%;
+  box-shadow: 0.5px 0.5px 4px 4px lightblue;
+  border-radius: 5px;
+  margin-top: 2%;
 }
-.pic{
-    width: 15px;
-    height: 15px;
-    padding-top: 17px;
-    padding-right: 3px;
-    margin-left: 10px;
+
+.pic {
+  width: 15px;
+  height: 15px;
+  padding-top: 17px;
+  padding-right: 3px;
+  margin-left: 10px;
 }
-.line{
-    display: flex;
-    height: 30px;
+
+/* USER DETAILS */
+.line {
+  display: flex;
+  height: 30px;
 }
-.detail{
-    display: flex;
-    justify-content: center;
-    
+
+.detail {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
 }
-.profile{
-    width: 9%;
-    height: 9%;
-    border-radius: 50%;
-   position: relative;
-   bottom: 15px;
+
+.profile {
+  width: 9%;
+  height: 9%;
+  border-radius: 50%;
+  position: relative;
+  bottom: 15px;
 }
-.saqib{
-    height: 4%;
-   margin-top: 12px;
-   margin-left: 10px;
+
+.saqib {
+  height: 4%;
+  margin-top: 12px;
+  margin-left: 10px;
 }
-.username{
+
+.username {
   font-size: 30px;
   color: blue;
-  margin-left: 38%;
+  align-items: center;
   margin-top: 2rem;
-   margin-bottom: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
 }
-.follower{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 12rem;
-margin-top: 1%;
-font-size: medium;
-width: 100;
 
-
+.follower {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12rem;
+  margin-top: 1%;
+  font-size: medium;
+  width: 100%;
+  flex-wrap: wrap;
+  text-align: center;
 }
-.user{
-    color: blue;
-    font-size: x-large;
+
+.user {
+  color: blue;
+  font-size: x-large;
   margin-left: 40%;
-  
 }
-.username2{
-    margin-left: 45%;
+
+.username2 {
+  margin-left: 45%;
 }
-.userrepos{
-     display: flex;
-    align-items: center;
-    justify-content:center;
-    gap: 20px;
+
+.userrepos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.api {
+  display: flex;
+  justify-content: start;
+  font-weight: bold;
+  height: 30px;
+  color: blue;
+  font-size: x-large;
+  text-decoration: underline;
+  margin-bottom: 2.5rem;
+}
+
+.start {
+  border-radius: 20px;
+  width: 300px;
+  padding-bottom: 2rem;
+  padding-left: 1%;
+  background: rgb(175, 213, 226);
+}
+
+.heee {
+  width: 20px;
+  height: 20px;
+  margin-top: 10%;
+  margin-right: 2%;
+}
+
+/* 📱 MOBILE RESPONSIVE STYLING */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  .searchbar {
+    width: 80%;
+    padding: 8px;
+  }
+
+  .github {
+    width: 28px;
+    height: 28px;
+  }
+
+  .username {
+    font-size: 22px;
+    margin: 1rem 0;
+    margin-left: 0;
+  }
+
+  .profile {
+    width: 25%;
+    height: auto;
+    bottom: 0;
     
+  }
+
+  .follower {
+    flex-direction: row;
+    gap: 20px;
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+
+  .user {
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .username2 {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .userrepos {
+    flex-direction: row;
+    gap: 15px;
+    padding-top: 20px;
+
+  }
+
+  .start {
+    width:35%;
+    padding: 1rem;
+  }
+
+  .api {
+    justify-content: start;
+    font-size: 20px;
+  }
 }
-.api{
-    display: flex;
-     justify-content: start;
-   font-weight: bold;
-   height: 30px;
-   color: blue;
-   font-size:x-large;
-   text-decoration: underline;
-    margin-bottom: 2.5rem;
-   
-}
-.start{
-    border-radius: 20px;
-    width: 300px;
-   padding-bottom: 2rem;
-   padding-left: 1%;
-      
-   background: rgb(175, 213, 226);
-}
-.heee{
-     width: 20px;
-    height: 20px;
-    margin-top: 10%;
-    margin-right: 2%;
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 22px;
+  }
+
+  .searchbar {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .follower {
+    gap: 8px;
+  }
+
+  .username {
+    font-size: 20px;
+  }
+
+  .start {
+    width: 95%;
+    font-size: 14px;
+  }
 }
